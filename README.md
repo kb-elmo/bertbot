@@ -11,7 +11,7 @@ But overall it is a pretty fun thing and is heavily used on the IRC server that 
 |-----|-----|
 |.nextrocket|shows the next upcoming rocketlaunch (data from LaunchLibrary)|
 |.slap \<user\>|slap a user (similar to the slap command of mIRC)|
-|.rep \<user\> (\<reason\>)|super simple reputation system. you can give an optional \<reason\>)|
+|.rep \<user\> (\<reason\>)|super simple reputation system. You can give an optional \<reason\>|
 |.eurusd \<value\>|convert euro to usd|
 |.usdeur \<value\>|convert usd to euro|
 |.jn \<question\>|choose between yes or no|
