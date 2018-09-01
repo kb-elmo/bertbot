@@ -28,12 +28,12 @@ import efukt
 version = "v0.8"
 
 # IRC settings
-host = "irc.n0xy.net"
-port = 6697
-nick = "elon"
+host = ""
+port = 
+nick = "bert"
 password = ""
-chan = "#w0bm"
-fefe_chans = ["#w0bm", "#security"]
+chan = ""
+fefe_chans = [""]
 
 # Twitter settings
 consumer_key = ""
