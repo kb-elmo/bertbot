@@ -23,7 +23,6 @@ import random
 from flask import Flask, request
 from nslookup import nslookup
 import rss
-import efukt
 
 version = "v0.8"
 
@@ -564,18 +563,6 @@ def fefe_check():
       sleep(300)
 
 
-def efukt_check():
-   while True:
-      try:
-         data = efukt.check()
-         if not data == None:
-            say(chan, y+data[0]+g+" - "+r+data[1])
-            say(chan, data[2]+" !f0ck")
-      except Exception as err:
-         print("Error in efukt checker! - "+str(err))
-      sleep(600)
-
-
 def gc_cycle():
    while True:
       try:
@@ -603,14 +590,6 @@ class fefe_thread(threading.Thread):
       print("Starting fefe thread...")
       fefe_check()
 
-class efukt_thread(threading.Thread):
-   def __init__(self, threadID):
-      threading.Thread.__init__(self)
-      self.threadID = threadID
-   def run(self):
-      print("Starting efukt thread...")
-      efukt_check()
-
 class gc_thread(threading.Thread):
    def __init__(self, threadID):
       threading.Thread.__init__(self)
@@ -627,13 +606,10 @@ def main():
    api = tweepy.API(auth)
    thread_command = command_thread(1)
    thread_fefe = fefe_thread(2)
-   thread_efukt = efukt_thread(3)
-   thread_gc = gc_thread(4)
+   thread_gc = gc_thread(3)
    thread_command.start()
    sleep(2)
    thread_fefe.start()
-   sleep(2)
-   thread_efukt.start()
    sleep(2)
    thread_gc.start()
 

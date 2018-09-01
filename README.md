@@ -26,5 +26,4 @@ But overall it is a pretty fun thing and is heavily used on the IRC server that 
 - All http links are parsed and the html title is printed out if one is found
 - The bot automatically parses all twitter links and prints out the full tweet and account name.
 - The blog of the german blogger "fefe" (Felix von Leitner - blog.fefe.de) is crawled every five mins. and new Posts are automatically printed out with a link to the post
-- eFukt is crawled every 10 mins. and a message is generated on new videos (it also triggers another bot in our network)
 
