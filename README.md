@@ -10,12 +10,12 @@ But overall it is a pretty fun thing and is heavily used on the IRC server that 
 |command|action|
 |-----|-----|
 |.nextrocket|shows the next upcoming rocketlaunch (data from LaunchLibrary)|
-|.slap|slap a user (similar to the slap command of mIRC)|
-|.rep (\<reason\>)|super simple reputation system. you can give an optional \<reason\>)|
-|.eurusd|convert euro to usd|
-|.usdeur|convert usd to euro|
-|.jn question|choose between yes or no|
-|.twitter account|get the last tweet of \<account\>|
+|.slap \<user\>|slap a user (similar to the slap command of mIRC)|
+|.rep \<user\> (\<reason\>)|super simple reputation system. you can give an optional \<reason\>)|
+|.eurusd \<value\>|convert euro to usd|
+|.usdeur \<value\>|convert usd to euro|
+|.jn \<question\>|choose between yes or no|
+|.twitter \<account\>|get the last tweet of \<account\>|
 |.trump|get trumps last tweet|
 |.konfuzius|get a konfuzius quote (in german from wikiquote)|
 |.say \<message\>|make the bot say something (only for admin user)|
